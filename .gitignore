@@ -1,0 +1,10 @@
+# Local files
+.DS_Store
+*.log
+
+# R / Quarto
+.Rproj.user
+.Rhistory
+.quarto
+/.vscode
+/.quarto/
