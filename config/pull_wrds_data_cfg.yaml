@@ -1,0 +1,48 @@
+force_redownload: false
+
+dyn_vars:
+    - gvkey
+    - conm
+    - cik
+    - fyear
+    - datadate
+    - indfmt
+    - sich
+    - consol
+    - popsrc
+    - datafmt
+    - curcd
+    - curuscn
+    - fyr
+    - at
+    - seq
+    - ceq
+    - csho
+    - mkvalt
+    - prcc_f
+    - epspx
+    - epspi
+    - dvpd
+    - exchg
+    - ebit
+    - ib
+    - ibc
+    - ni
+    - oancf
+    - ivncf
+    - fincf
+    - oiadp
+    - pi
+    - sale
+
+stat_vars:
+    - gvkey
+    - loc
+    - sic
+    - spcindcd
+    - ipodate
+    - fic
+
+cs_filter: consol='C' and (indfmt='INDL' or indfmt='FS') and datafmt='STD' and popsrc='D'
+
+
